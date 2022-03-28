@@ -1,0 +1,14 @@
+<h1>webpage test</h1>
+<p>this is a test of a wabpage</p>
+
+<p>
+    {% for type in pizza %}
+        {% if type == pizza.3 %}
+            {{ type + " (this is the best one)" }}
+
+        {% else %}
+            {{ type }}
+        {% endif %}
+        <br>
+    {% endfor %}
+</p>
